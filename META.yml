@@ -26,7 +26,7 @@ no_index:
 provides:
   App::Git::Spark:
     file: lib/App/Git/Spark.pm
-    version: 0.001
+    version: 0.002
 requires:
   DateTime: 0
   Encode: 0
@@ -40,4 +40,4 @@ resources:
   bugtracker: https://github.com/kablamo/git-spark/issues
   homepage: https://metacpan.org/release/App-Git-Spark
   repository: git://github.com/kablamo/git-spark.git
-version: 0.001
+version: 0.002
