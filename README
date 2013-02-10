@@ -1,0 +1,18 @@
+NAME
+    App::Git::Spark - Review the latest changes to a git repository
+
+SYNOPSIS
+      git spark
+
+  DESCRIPTION
+    TODO
+
+AUTHOR
+    Eric Johnson <cpan at iijo dot nospamthanks dot org>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2013 by Eric Johnson.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
