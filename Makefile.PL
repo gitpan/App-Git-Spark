@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Review the latest changes to a git repository",
+  "ABSTRACT" => "Plot your git commit history on the command line with sparklines",
   "AUTHOR" => "Eric Johnson <cpan at iijo dot nospamthanks dot org>",
   "BUILD_REQUIRES" => {
     "File::Find" => 0,
@@ -34,7 +34,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.002",
+  "VERSION" => "0.003",
   "test" => {
     "TESTS" => "t/*.t"
   }
