@@ -11,8 +11,8 @@ use DateTime;
 use List::AllUtils qw/max sum/;
 use Math::Round qw/round/;
     
-our $VERSION = '0.003'; # VERSION
-# PODNAME: git-ribbon
+our $VERSION = '0.004'; # VERSION
+# PODNAME: git-spark
 
 my ($option, $usage) = describe_options(
     'usage: git spark %o [AUTHOR]',
@@ -86,7 +86,7 @@ __END__
 
 =head1 NAME
 
-git-ribbon
+git-spark
 
 =head1 AUTHOR
 

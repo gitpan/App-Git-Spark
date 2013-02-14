@@ -1,6 +1,6 @@
 package App::Git::Spark;
 
-our $VERSION = '0.003'; # VERSION
+our $VERSION = '0.004'; # VERSION
 
 # ABSTRACT: Plot your git commit history on the command line with sparklines
 
@@ -69,8 +69,9 @@ the output so this is all hidden behind the scenes.)
 
 =head1 INSTALLATION
 
-First, download spark and put it somewhere in your $PATH. (TODO: Include spark
-in this distro.)
+First, download spark and put it somewhere in your $PATH. 
+
+    curl https://raw.github.com/holman/spark/master/spark > spark
 
 Next, install git-spark with cpanm.
 L<cpanm|https://metacpan.org/module/App::cpanminus> is the standard tool the

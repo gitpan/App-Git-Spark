@@ -53,8 +53,9 @@ COMPARING GRAPHS
     characters from the output so this is all hidden behind the scenes.)
 
 INSTALLATION
-    First, download spark and put it somewhere in your $PATH. (TODO: Include
-    spark in this distro.)
+    First, download spark and put it somewhere in your $PATH.
+
+        curl https://raw.github.com/holman/spark/master/spark > spark
 
     Next, install git-spark with cpanm. cpanm
     <https://metacpan.org/module/App::cpanminus> is the standard tool the
