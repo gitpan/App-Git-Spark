@@ -1,6 +1,7 @@
 package App::Git::Spark;
+use utf8;
 
-our $VERSION = '0.005'; # VERSION
+our $VERSION = '0.006'; # VERSION
 
 # ABSTRACT: Plot your git commit history on the command line with sparklines
 

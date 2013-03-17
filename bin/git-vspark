@@ -11,7 +11,7 @@ use Term::Vspark qw/show_graph/;
 
 binmode STDOUT, ':encoding(UTF-8)';
     
-our $VERSION = '0.005'; # VERSION
+our $VERSION = '0.006'; # VERSION
 # PODNAME: git-spark
 
 my ($option, $usage) = describe_options(

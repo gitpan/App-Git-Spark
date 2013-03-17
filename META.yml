@@ -29,7 +29,7 @@ no_index:
 provides:
   App::Git::Spark:
     file: lib/App/Git/Spark.pm
-    version: 0.005
+    version: 0.006
 requires:
   DateTime: 0
   Encode: 0
@@ -38,14 +38,14 @@ requires:
   Math::Round: 0
   Term::Spark: 0
   Term::Vspark: 0
-  perl: 5.006
+  perl: 5.008
   strict: 0
+  utf8: 0
   warnings: 0
 resources:
   bugtracker: https://github.com/kablamo/git-spark/issues
   homepage: https://metacpan.org/release/App-Git-Spark
   repository: git://github.com/kablamo/git-spark.git
-version: 0.005
+version: 0.006
 x_contributors:
   - 'Eric Johnson <eric.git@iijo.org>'
-  - 'Eric Johnson <github@iijo.org>'
