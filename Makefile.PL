@@ -12,8 +12,11 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "Plot your git commit history on the command line with sparklines",
   "AUTHOR" => "Eric Johnson <cpan at iijo dot nospamthanks dot org>",
   "BUILD_REQUIRES" => {
+    "ExtUtils::MakeMaker" => 0,
     "File::Find" => 0,
+    "File::Spec::Functions" => 0,
     "File::Temp" => 0,
+    "List::Util" => 0,
     "Test::More" => 0
   },
   "CONFIGURE_REQUIRES" => {
@@ -21,7 +24,8 @@ my %WriteMakefileArgs = (
   },
   "DISTNAME" => "App-Git-Spark",
   "EXE_FILES" => [
-    "bin/git-spark"
+    "bin/git-spark",
+    "bin/git-vspark"
   ],
   "LICENSE" => "perl",
   "NAME" => "App::Git::Spark",
@@ -31,10 +35,12 @@ my %WriteMakefileArgs = (
     "Getopt::Long::Descriptive" => 0,
     "List::AllUtils" => 0,
     "Math::Round" => 0,
+    "Term::Spark" => 0,
+    "Term::Vspark" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.004",
+  "VERSION" => "0.005",
   "test" => {
     "TESTS" => "t/*.t"
   }
